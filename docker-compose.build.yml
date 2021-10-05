@@ -1,9 +1,13 @@
 version: '3'
 
 services:
-  python3.8-cuda11-base-focal:
-    build: ./python3.8-cuda11-base-focal
-    image: nunenuh/ugml:python3.8-cuda11-base-focal
-  python3.8-cuda11-devel-focal:
-    build: ./python3.8-cuda11-devel-focal
-    image: nunenuh/ugml:python3.8-cuda11-devel-focal
+  # python3.8-cuda11-base-focal:
+  #   build: ./python3.8-cuda11-base-focal
+  #   image: nunenuh/ugml:python3.8-cuda11-base-focal
+  # python3.8-cuda11-devel-focal:
+  #   build: ./python3.8-cuda11-devel-focal
+  #   image: nunenuh/ugml:python3.8-cuda11-devel-focal
+  python3.8-cpu-devel-focal:
+    build: ./python3.8-cpu-devel-focal
+    image: nunenuh/ugml:python3.8-cpu-devel-focal
+
